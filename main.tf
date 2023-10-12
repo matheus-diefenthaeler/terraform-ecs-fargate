@@ -146,7 +146,7 @@ module "alb" {
         enabled             = true
         interval            = 30
         path                = "/health"
-        port                = "traffic-port"
+        port                = "${local.container_port}"
         healthy_threshold   = 3
         unhealthy_threshold = 3
         timeout             = 6
