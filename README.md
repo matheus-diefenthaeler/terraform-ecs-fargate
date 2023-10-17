@@ -24,7 +24,7 @@ Antes de executar este script, certifique-se de ter os seguintes pré-requisitos
 
 ## Execução
 
-Siga estas etapas para implantar a instância RDS usando o Terraform:
+Siga estas etapas para implantar o ECS + Fargate usando o Terraform:
 
 1. **Inicializar o Terraform:**
     ```bash
